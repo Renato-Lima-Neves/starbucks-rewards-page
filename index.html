@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Front End Practice - Starbucks</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <!--NAV-->
+        <nav>
+            <!--NAV HEADER-->
+            <div class="nav-header">
+                <div class="starbucks">
+                    <img src="images/starbucks-logo.png" alt="starbucks-logo">
+                </div>
+                <!--OPEN BTN-->
+                <button class="open-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <!--NAV LINKS-->
+                <div class="nav-links">
+                    <button class="close-btn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <!--NAV LIST-->
+                    <ul class="nav-list">
+                        <li class="menu mobile"><a href="#">Menu<i class="fas fa-chevron-right"></a></i></li>
+                        <li class="menu desktop"><a href="#">Menu<i class="fas fa-chevron-right"></a></i></li>
+                        <li class="active"><a href="#">Rewards</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                    </ul>
+                    <!--SIGN IN-->
+                    <div class="sign-in">
+                        <!--BTNS-->
+                        <div class="btns">
+                            <a href="#" class="btn">Sign in</a>
+                            <a href="#" class="btn">Join now</a>
+                        </div>
+                        <a href="#" class=find-store>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Find a store
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--MOBILE LINKS-->
+            <ul class="mobile-links"> 
+                <li class="menu-mobile"><a href="#"><i class="fas fa-chevron-left"></i>Menu</a></li>
+                <li>All Products</li>
+                <li>Featured</li>
+                <li>Previous</li>
+                <li>Favorites</li>
+            </ul>
+            <!--JOIN IN THE APP-->
+            <div class="join-app">
+                <div class="starbucks-rewards">
+                    <p class="text-xs">STARBUCKS® REWARDS</p>
+                </div>
+                <a href="#" class="join-btn">Join in the app</a>
+            </div>
+        </nav>
+        <!--HERO IMAGE SECTION-->
+        <section class="hero-image">
+            <!--HERO IMAGE MOBILE-->
+            <div class="mobile">
+                <div class="hero-text">
+                    <h1>FREE COFFEE IS A TAP AWAY</h1>
+                    <p>Join now to start earning Rewards.</p>
+                    <a href="#" class="join-btn">Join in the app</a>
+                    <p>Or join in the app for the best experience</p>
+                </div>
+            </div>
+            <!--HERO TEXT DESKTOP-->
+            <div class="desktop">
+                <div class="hero-text">
+                    <h1>FREE COFFEE IS A TAP AWAY</h1>
+                    <p class="hero-p">Join now to start earning Rewards.</p>
+                    <a href="#" class="btn">Join now</a>
+                    <p class="hero-link">Or <a href="#" class="underline">join in the app</a> for the best experience</p>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--MAIN-->
+    <main>
+        <!--MAIN TITLE-->
+        <div class="main-title">
+            <h2 class="text-lg">Getting started is easy</h2>
+            <p class="text-xxs">Earn Stars and get rewarded in a few easy steps.</p>
+        </div>
+        <!--FLEX ONE-->
+        <section class="flex one">
+            <!--FLEX ITEM ONE-->
+            <div class="flex-item one">
+                <!--FLEX ITEM IMG-->
+                <div class="flex-item-img">
+                    <img src="images/getting-started-1.webp" alt="getting-started-1">
+                </div>
+                <!--FLEX ITEM TEXT MOBILE-->
+                <div class="flex-item-text mobile">
+                    <h2 class="text-sm">Download the Starbucks app</h2>
+                    <p class="text-xxs">
+                        <a href="#" class="green-link">Join in the app</a>
+                        to get access to the full range of Starbucks Rewards benefits.
+                        You can also <a href="#" class="green-link">join online</a>.
+                    </p>
+                </div>
+                <!--FLEX ITEM TEXT DESKTOP-->
+                <div class="flex-item-text desktop">
+                    <h2 class="text-sm">Create an account</h2>
+                    <p class="text-xxs">
+                        To get started, <a href="#" class="green-link">join now</a>. 
+                        You can also <a href="#" class="green-link">join in the app</a> 
+                        to get access to the full range of 
+                        Starbucks® Rewards benefits.
+                    </p>
+                </div>
+            </div>
+            <!--FLEX ITEM TWO-->
+            <div class="flex-item two">
+                <!--FLEX ITEM IMG-->
+                <div class="flex-item-img">
+                    <img src="images/getting-started-2.webp" alt="getting-started-2">
+                </div>
+                <!--FLEX ITEM TEXT-->
+                <div class="flex-item-text">
+                    <h2 class="text-sm">Order and pay how you’d like</h2>
+                    <p class="text-xxs">
+                        Use cash, credit/debit card or save some time and pay right 
+                        through the app. You’ll collect Stars all ways. 
+                        <a href="#" class="green-link">Learn how</a>
+                    </p>
+                </div>
+            </div>
+            <!--FLEX ITEM THREE-->
+            <div class="flex-item three">
+                <!--FLEX ITEM IMG-->
+                <div class="flex-item-img">
+                    <img src="images/getting-started-3.webp" alt="getting-started-3">
+                </div>
+                <!--FLEX ITEM TEXT-->
+                <div class="flex-item-text">
+                    <h2 class="text-sm">Earn Stars, get Rewards</h2>
+                    <p class="text-xxs">
+                        As you earn Stars, you can redeem them for Rewards—like free food, 
+                        drinks, and more. Start redeeming with as little as 25 Stars!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--TABS-->
+        <section class="tabs">
+            <!--MAIN TXT-->
+            <div class="main-txt">
+                <h2 class="text-lg">Get your favourites for free</h2>
+                <!--TAB LINKS-->
+                <div class="tab-links">
+                    <!--TAB BTN-->
+                    <button class="tab-btn active" data-id="25">
+                        <h3 class="text-md">25</h3> 
+                        <span class="color-gold text-xs">★</span>
+                    </button>
+                    <!--TAB BTN-->
+                    <button class="tab-btn" data-id="50">
+                        <h3 class="text-md">50</h3> 
+                        <span class="color-gold text-xs">★</span>
+                    </button>
+                    <!--TAB BTN-->
+                    <button class="tab-btn" data-id="150">
+                        <h3 class="text-md">150</h3> 
+                        <span class="color-gold text-xs">★</span>
+                    </button>
+                    <!--TAB BTN-->
+                    <button class="tab-btn" data-id="200"> 
+                        <h3 class="text-md">200</h3> 
+                        <span class="color-gold text-xs">★</span>
+                    </button>
+                    <!--TAB BTN-->
+                    <button class="tab-btn" data-id="400">
+                        <h3 class="text-md">400</h3> 
+                        <span class="color-gold text-xs">★</span>
+                    </button>
+                </div>
+            </div>
+            <!--TAB CONTENT 25-->
+            <div class="tab-content active" id="25">
+                <!--TAB CONTENT IMG 25-->
+                <div class="tab-content-img">
+                    <img src="images/025.webp" alt="drink-025">
+                </div>
+                 <!--TAB CONTENT TEXT 25-->
+                <div class="tab-content-text">
+                    <h4 class="text-md">Customize your drink</h4>
+                    <p class="text-xxs">
+                        Make your drink just right with an extra espresso shot, 
+                        dairy substitute or a dash of your favorite syrup.
+                    </p>
+                </div>
+            </div>
+            <!--TAB CONTENT 50-->
+            <div class="tab-content" id="50">
+                <!--TAB CONTENT IMG 50-->
+                <div class="tab-content-img">
+                    <img src="images/050.webp" alt="drink-050">
+                </div>
+                 <!--TAB CONTENT TEXT 50-->
+                <div class="tab-content-text">
+                    <h4 class="text-md">Brewed hot coffee, bakery item or hot tea</h4>
+                    <p class="text-xxs">Pair coffee cake or an almond croissant with your fresh cup of hot brew.</p>
+                </div>
+            </div>
+            <!--TAB CONTENT 150-->
+            <div class="tab-content" id="150">
+                <!--TAB CONTENT IMG 150-->
+                <div class="tab-content-img">
+                    <img src="images/150.webp" alt="drink-150">
+                </div>
+                 <!--TAB CONTENT TEXT 150-->
+                <div class="tab-content-text">
+                    <h4 class="text-md">Handcrafted drink, hot breakfast or parfait</h4>
+                    <p class="text-xxs">Have a really good morning with a breakfast sandwich, oatmeal or your favorite drink.</p>
+                </div>
+            </div>
+            <!--TAB CONTENT 200-->
+            <div class="tab-content" id="200">
+                <!--TAB CONTENT IMG 200-->
+                <div class="tab-content-img">
+                    <img src="images/200.webp" alt="drink-200">
+                </div>
+                 <!--TAB CONTENT TEXT 200-->
+                <div class="tab-content-text">
+                    <h4 class="text-md">Salad, sandwich or protein box</h4>
+                    <p class="text-xxs">Nourish your day with a hearty Chipotle Chicken Wrap or Eggs & Cheese Protein Box.</p>                    </p>
+                </div>
+            </div>
+            <!--TAB CONTENT 400-->
+            <div class="tab-content" id="400">
+                <!--TAB CONTENT IMG 400-->
+                <div class="tab-content-img">
+                    <img src="images/400.webp" alt="drink-400">
+                </div>
+                 <!--TAB CONTENT TEXT 400-->
+                <div class="tab-content-text">
+                    <h4 class="text-md">Select merchandise or at-home coffee</h4>
+                    <p class="text-xxs">Take home a signature cup, a bag of coffee or your choice of select coffee accessories.</p>
+                </div>
+            </div>
+        </section>
+        <!--MAIN SUBTITLE-->
+        <div class="main-subtitle">
+            <h2 class="text-lg">Endless Extras</h2>
+            <p class="p">
+                Joining Starbucks® Rewards means unlocking access to exclusive benefits. 
+                Say hello to easy ordering, tasty Rewards and—yes, free coffee.
+            </p>
+        </div>
+        <!--FLEX TWO-->
+        <section class="flex two">
+            <!--FLEX ITEM ONE-->
+            <div class="flex-item one">
+                <!--FLEX ITEM IMG-->
+                <div class="flex-item-img">
+                    <img src="images/fun-freebies.webp" alt="fun-freebies">
+                </div>
+                <!--FLEX ITEM TEXT-->
+                <div class="flex-item-text">
+                   <h2 class="text-sm">Fun freebies</h2>
+                   <p>Not only can you earn free coffee, look forward to a birthday treat plus coffee and tea refills.</p>
+                   <a href="#" class="green-link">Learn more</a>
+                </div>
+            </div>
+            <!--FLEX ITEM TWO-->
+            <div class="flex-item two">
+                <!--FLEX ITEM IMG-->
+                <div class="flex-item-img">
+                    <img src="images/order-and-pay-ahead.webp" alt="order-and-pay-ahead">
+                </div>
+                <!--FLEX ITEM TEXT-->
+                <div class="flex-item-text">
+                   <h2 class="text-sm">Order & pay ahead</h2>
+                   <p>Enjoy the convenience of in-store, curbside or drive-thru pickup at select stores.</p>
+                   <a href="#" class="green-link">Learn more</a>
+                </div>
+            </div>
+            <!--FLEX ITEM THREE-->
+            <div class="flex-item three">
+                <!--FLEX ITEM IMG-->
+                <div class="flex-item-img">
+                    <img src="images/get-to-free-faster.webp" alt="get-to-free-faster">
+                </div>
+                <!--FLEX ITEM TEXT-->
+                <div class="flex-item-text">
+                   <h2 class="text-sm">Get to free faster</h2>
+                   <p>Earn Stars even quicker with Bonus Star challenges, Double Star Days and exciting games.</p>
+                   <a href="#" class="green-link">Learn more</a>
+                </div>
+            </div>
+        </section>
+        <!--GRID ONE-->
+        <section class="grid one">
+            <!--EARN STARS-->
+            <div class="earn-stars">
+                <h2 class="text-lg">Cash or card, you earn Stars</h2>
+                <p class="p text-xxs">
+                    No matter how you pay, you can earn Stars with your morning coffee. 
+                    Those Stars add up to (really delicious) Rewards.
+                </p>
+            </div>
+            <!--GRID ITEM ONE-->
+            <div class="grid-item one">
+                <p class="per-dollar text-md">
+                1<span class="color-black">★</span>per dollar
+                </p>
+                <p>Pay as you go</p>
+            </div>
+            <!--GRID ITEM TWO-->
+            <div class="grid-item two">
+                <!--GRID ITEM IMG-->
+                <div class="grid-item-img">
+                    <img src="images/scan-and-pay.png" alt="scan-and-pay">
+                </div>
+                <!--GRID ITEM TEXT-->
+                <div class="grid-item-text">
+                    <h3 class="text-sm">Scan and pay separately</h3>
+                    <p>Use cash or credit/debit card at the register.</p>
+                </div>
+            </div>
+            <!--GRID ITEM THREE-->
+            <div class="grid-item three">
+                <!--GRID ITEM IMG-->
+                <div class="grid-item-img">
+                    <img src="images/payment-in-app.png" alt="payment-in-app">
+                </div>
+                <!--GRID ITEM TEXT-->
+                <div class="grid-item-text">
+                    <h3 class="text-sm">Save payment in the app</h3>
+                    <p>
+                        Check-out faster by saving a credit/debit card or PayPal to your account. 
+                        You’ll be able to order ahead or scan and pay at the register in one step.
+                    </p>
+                </div>
+            </div>
+            <!--GRID ITEM FOUR-->
+            <div class="grid-item four">
+                <p class="per-dollar text-md">
+                    2<span class="color-black">★</span> per dollar
+                </p>
+                <p>Add funds in the app</p>
+            </div>
+            <!--GRID ITEM FIVE-->
+            <div class="grid-item five">
+                <!--GRID ITEM IMG-->
+                <div class="grid-item-img">
+                    <img src="images/preload.png" alt="preload">
+                </div>
+                <!--GRID ITEM TEXT-->
+                <div class="grid-item-text">
+                    <h3 class="text-sm">Preload</h3>
+                    <p>
+                        To save time and earn Stars twice as fast, add money to your digital 
+                        Starbucks Card using any payment option. Scan and pay in one step or order 
+                        ahead in the app.
+                    </p>
+                </div>
+            </div>
+            <!--GRID ITEM SIX-->
+            <div class="grid-item six">
+                <!--GRID ITEM IMG-->
+                <div class="grid-item-img">
+                    <img src="images/gift-card.png" alt="gift-card">
+                </div>
+                <!--GRID ITEM TEXT-->
+                <div class="grid-item-text">
+                    <h3 class="text-sm">Register your gift card</h3>
+                    <p>Then use it to pay through the app. You can even consolidate 
+                    balances from multiple cards in one place.</p>
+                </div>
+            </div>
+            <!--GRID ITEM SEVEN-->
+            <div class="grid-item seven">
+                <p class="per-dollar text-md">
+                Up to 3<span class="color-black">★</span> per dollar
+                </p>
+                <p>With Starbucks® Rewards Visa® Card</p>
+            </div>
+            <!--GRID ITEM EIGHT-->
+            <div class="grid-item eight">
+                <!--GRID ITEM IMG-->
+                <div class="grid-item-img">
+                    <img src="images/visa-card.png" alt="visa-card">
+                </div>
+                <!--GRID ITEM TEXT-->
+                <div class="grid-item-text">
+                    <h3 class="text-sm">Earn Stars even faster</h3>
+                    <p>
+                        Earn Stars on all purchases you make with our credit card
+                        opens in new window in and outside of Starbucks. 
+                        Earn 1 Star per $1 when you digitally preload your Starbucks Card 
+                        with your Starbucks® Rewards Visa® Card, and earn 2 Stars per $1 when 
+                        you pay with that preloaded Starbucks Card.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--STAR CODES SECTION-->
+        <section class="star-codes">
+            <h2 class="text-lg">Star Codes</h2>
+            <p>
+                Yesssss. You’ve got Stars in your hand. 
+                Enter your code here and we’ll add Stars to your account.
+            </p>
+            <form>
+                <input type="email" class="email" placeholder="Enter your Star Code">
+                <button type="button" class="submit">Submit</button>
+            </form>
+            <p class="text-xxs">Have a receipt but don't have a code?</p>
+            <p class="text-xxs">
+                Go to <a href="#" class="green-link">starbucks-stars.com</a>
+                to upload your receipt and collect your Stars.
+            </p>
+            <!--QUESTIONS-->
+            <div class="questions">
+                <h2 class="text-lg">Questions?</h2>
+                <p class="text-xxs">
+                    We want to help in any way we can. You can ask your barista 
+                    anytime or we’ve answered the most commonly asked questions 
+                    <a href="#" class="green-link">right over here</a>.
+                </p>
+            </div>
+        </section>
+        <!--GRID TWO-->
+        <section class="grid two">
+            <!--GRID ITEM ONE-->
+            <div class="grid-item one">
+                <p class="text-xxs">At participating stores. Restrictions apply.</p>
+            </div>
+            <!--GRID ITEM TWO-->
+            <div class="grid-item two">
+                <h3 class="text-xxs">EARNING STARS</h3>
+                <p class="text-xs">
+                    Stars cannot be earned on purchases of alcohol, 
+                    Starbucks Cards or Starbucks Card reloads.
+                </p>
+                <p class="text-xs">
+                    Earn 1 Star per $1 spent when you scan your member barcode in the app, 
+                    then pay with cash, credit/debit cards or mobile wallets at participating stores. 
+                    You can also earn 1 Star per $1 spent when you link a payment method and pay directly through the app.
+                </p>
+                <p class="text-xs">
+                    Earn 2 Stars per $1 spent when you load funds and pay with your digital Starbucks Card 
+                    in the app. You can also earn 2 Stars per $1 spent when you pay in-person at a participating 
+                    store with your registered physical Starbucks Card or scan your member barcode in the app, 
+                    and then use any physical Starbucks Card (regardless of whether it is registered) to complete 
+                    the purchase.
+                </p>
+            </div>
+            <!--GRID ITEM THREE-->
+            <div class="grid-item three">
+                <h3 class="text-xxs">TERMS OF USE</h3>
+                <p class="text-xs">
+                    For full program details visit 
+                    <a href="#" class="green-link">starbucks.com/rewards/terms</a>
+                </p>
+                <p class="text-xs">
+                    * Earn 1 Star per $1 when digitally loading your Starbucks Card with your Starbucks® 
+                    Rewards Visa® Card: See your Card Rewards Program Agreement for more details.
+                </p>
+                <p class="text-xs">
+                    Starbucks® Rewards benefits are available at participating Starbucks stores. Not all stores 
+                    have the ability to honor Rewards at this time. Visit the 
+                    <a href="#" class="green-link">Starbucks Store Locator</a>
+                    and search for locations honoring “Redeem Rewards”.
+                </p>
+                <p class="text-xs">
+                    Deposit and credit card products provided by JPMorgan Chase Bank, N.A. Member FDIC
+                </p>
+            </div>
+            <!--GRID ITEM FOUR-->
+            <div class="grid-item four">
+                <h3 class="text-xxs">BENEFITS</h3>
+                <p class="text-xs">
+                    Free refills available during same in-store visit only. 
+                    To qualify for the Birthday Reward, you must have made at 
+                    least one Star-earning transaction.
+                </p>
+            </div>
+            <!--GRID ITEM FIVE-->
+            <div class="grid-item five">
+                <h3 class="text-xxs">REDEEMING REWARDS</h3>
+                <p class="text-xs">
+                    Rewards cannot be redeemed for alcoholic beverages or multi-serve items. 
+                    Not all stores honor tiered Rewards. Select stores redeem 150 Stars for 
+                    free food or drink items only.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!--DESKTOP LINE-->
+        <hr class="desktop-line">
+        <!--LEARN MORE SECTION-->
+        <section class="learn-more">
+            <!--ABOUT FIRST-->
+            <div class="about first">
+                 <!--ABOUT TITLE-->
+                <div class="about-title">
+                    <span class="about-subtitle text-sm">About Us</span>
+                    <!--ABOUT BTN-->
+                    <button type="button" class="about-btn">
+                        <span class="open"><i class="fas fa-chevron-down"></i></span>
+                        <span class="close"><i class="fas fa-chevron-up"></i></span>
+                    </button>
+                </div>
+                <!--ABOUT LINKS-->
+                <ul class="about-links">
+                    <li>
+                        <a href="#">Our Heritage</a>
+                    </li>
+                    <li>
+                        <a href="#">Our Coffee</a>
+                    </li>
+                    <li>
+                        <a href="#">Stories and News</a>
+                    </li>
+                    <li>
+                        <a href="#">Investor Relations</a>
+                    </li>
+                    <li>
+                        <a href="#">Policies and Standard</a>
+                    </li>
+                    <li>
+                        <a href="#">Customer Service</a>
+                    </li>
+                </ul>
+            </div>
+            <!--ABOUT SECOND--> 
+            <div class="about second">
+                <!--ABOUT TITLE-->
+               <div class="about-title">
+                   <span class="about-subtitle text-sm">Careers</span>
+                   <!--ABOUT BTN-->
+                   <button type="button" class="about-btn">
+                       <span class="open"><i class="fas fa-chevron-down"></i></span>
+                       <span class="close"><i class="fas fa-chevron-up"></i></span>
+                   </button>
+               </div>
+               <!--ABOUT LINKS-->
+               <ul class="about-links">
+                   <li>
+                       <a href="#">Culture and Values</a>
+                   </li>
+                   <li>
+                       <a href="#">Inclusion, Diversity, and Equity</a>
+                   </li>
+                   <li>
+                       <a href="#">College Achievement Plan</a>
+                   </li>
+                   <li>
+                       <a href="#">U.S. Careers</a>
+                   </li>
+                   <li>
+                       <a href="#">International Careers</a>
+                   </li>
+               </ul>
+            </div>
+            <!--ABOUT THIRD-->
+            <div class="about third">
+                <!--ABOUT TITLE-->
+                <div class="about-title">
+                    <span class="about-subtitle text-sm">Social Impact</span>
+                    <!--ABOUT BTN-->
+                    <button type="button" class="about-btn">
+                        <span class="open"><i class="fas fa-chevron-down"></i></span>
+                        <span class="close"><i class="fas fa-chevron-up"></i></span>
+                    </button>
+                </div>
+                <!--ABOUT LINKS-->
+                <ul class="about-links">
+                    <li>
+                        <a href="#">Ethical Sourcing</a>
+                    </li>
+                    <li>
+                        <a href="#">Leading in Sustainability</a>
+                    </li>
+                    <li>
+                        <a href="#">Strengthening Communities</a>
+                    </li>
+                    <li>
+                        <a href="#">Creating Opportunities</a>
+                    </li>
+                    <li>
+                        <a href="#">Global Social Impact Report</a>
+                    </li>
+                </ul>
+            </div>
+            <!--ABOUT FOUR-->
+            <div class="about four">
+                <!--ABOUT TITLE-->
+                <div class="about-title">
+                    <span class="about-subtitle text-sm">For Business Partners</span>
+                    <!--ABOUT BTN-->
+                    <button type="button" class="about-btn">
+                        <span class="open"><i class="fas fa-chevron-down"></i></span>
+                        <span class="close"><i class="fas fa-chevron-up"></i></span>
+                    </button>
+                </div>
+                <!--ABOUT LINKS-->
+                <ul class="about-links">
+                    <li>
+                        <a href="#">Landlord Support Center</a>
+                    </li>
+                    <li>
+                        <a href="#">Suplies</a>
+                    </li>
+                    <li>
+                        <a href="#">Corporate Gift Card Sales</a>
+                    </li>
+                    <li>
+                        <a href="#">Office and Foodservice Coffe</a>
+                    </li>
+                </ul>
+            </div>
+            <!--ABOUT FIVE-->
+            <div class="about five">
+                <!--ABOUT TITLE-->
+                <div class="about-title">
+                    <span class="about-subtitle text-sm">Order and Pickup</span>
+                    <!--ABOUT BTN-->
+                    <button type="button" class="about-btn">
+                        <span class="open"><i class="fas fa-chevron-down"></i></span>
+                        <span class="close"><i class="fas fa-chevron-up"></i></span>
+                    </button>
+                </div>
+                <!--ABOUT LINKS-->
+                <ul class="about-links">
+                    <li>
+                        <a href="#">Order on the App</a>
+                    </li>
+                    <li>
+                        <a href="#">Order on the Web</a>
+                    </li>
+                    <li>
+                        <a href="#">Delivery</a>
+                    </li>
+                    <li>
+                        <a href="#">Order and Pickup Options</a>
+                    </li>
+                    <li>
+                        <a href="#">Explore and Find Coffee for Home</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--SOCIAL MEDIA SECTION-->
+        <section class="social-media">
+            <!--SOCIAL ICON-->
+            <ul class="social-icon">
+                <li>
+                    <a href="#"><img src="images/spotify.png" class="logo" alt="spotify-logo"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/facebook.png" class="logo" alt="facebook-logo"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/pinterest.png" class="logo" alt="pinterest-logo"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/instagram.png" class="logo" alt="instagram-logo"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/youtube.png" class="logo" alt="youtube-logo"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/twitter.png" alt="twitter-logo"></a>
+                </li>
+            </ul>
+        </section>
+        <!--FOOTER LINKS SECTION-->
+        <section class="footer-links">
+            <!--FOOTER LIST-->
+            <ul class="footer-list">
+                <li>
+                    <a href="#" class="underline-links">Privacy Policy</a>
+                    <span class="vertical-line"></span>
+                </li>
+                <li>
+                    <a href="#" class="underline-links">Terms of Use</a>
+                    <span class="vertical-line"></span>
+                </li>
+                <li>
+                    <a href="#" class="underline-links">CA Supply Chain Act</a>
+                    <span class="vertical-line"></span>
+                </li>
+                <li>
+                    <a href="#" class="underline-links">Submit Your Idea</a>
+                    <span class="vertical-line"></span>
+                </li>
+                <li>
+                    <a href="#" class="underline-links">Cookie Preferences</a>
+                </li>
+            </ul>
+        </section>
+        <!--COPYRIGHT-->
+        <div class="copyright">
+            <p class="text-xxs">© 2021 Starbucks Coffee Company. All rights reserved.</p>
+        </div>
+        <div class="attribution">
+            <p class="text-xxs">
+                Icons made by 
+                <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect" target="_blank">
+                    Pixel perfect
+                </a> 
+                from 
+                <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">
+                    www.flaticon.com
+                </a>
+            </p>
+            <p class="text-xxs">
+                Challenge by <a href="https://www.frontendpractice.com/project/starbucks/" target="_blank">
+                    Front End Practice
+                </a>.
+                Coded by <a href="https://github.com/Renato-Lima-Neves/starbucks-rewards-page" target="_blank">
+                    Renato Lima Neves
+                </a>.
+            </p>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/d6ea8ec873.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
